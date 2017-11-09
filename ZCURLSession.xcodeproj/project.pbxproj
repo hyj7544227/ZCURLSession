@@ -15,6 +15,7 @@
 		F044985C1FB3FBD400E7D07A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F044985A1FB3FBD400E7D07A /* LaunchScreen.storyboard */; };
 		F04498671FB3FBD400E7D07A /* ZCURLSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F04498661FB3FBD400E7D07A /* ZCURLSessionTests.m */; };
 		F04498721FB3FBD500E7D07A /* ZCURLSessionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F04498711FB3FBD500E7D07A /* ZCURLSessionUITests.m */; };
+		F04498811FB403E000E7D07A /* ZCSessionDataTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F04498801FB403E000E7D07A /* ZCSessionDataTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F044986D1FB3FBD500E7D07A /* ZCURLSessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCURLSessionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04498711FB3FBD500E7D07A /* ZCURLSessionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCURLSessionUITests.m; sourceTree = "<group>"; };
 		F04498731FB3FBD500E7D07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F044987F1FB403E000E7D07A /* ZCSessionDataTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSessionDataTask.h; sourceTree = "<group>"; };
+		F04498801FB403E000E7D07A /* ZCSessionDataTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCSessionDataTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F044985A1FB3FBD400E7D07A /* LaunchScreen.storyboard */,
 				F044985D1FB3FBD400E7D07A /* Info.plist */,
 				F044984C1FB3FBD300E7D07A /* Supporting Files */,
+				F044987F1FB403E000E7D07A /* ZCSessionDataTask.h */,
+				F04498801FB403E000E7D07A /* ZCSessionDataTask.m */,
 			);
 			path = ZCURLSession;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04498811FB403E000E7D07A /* ZCSessionDataTask.m in Sources */,
 				F04498541FB3FBD400E7D07A /* ViewController.m in Sources */,
 				F04498511FB3FBD400E7D07A /* AppDelegate.m in Sources */,
 				F044984E1FB3FBD300E7D07A /* main.m in Sources */,
